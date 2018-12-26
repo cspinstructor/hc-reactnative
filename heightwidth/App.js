@@ -17,22 +17,22 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    justifyContent: 'space-evenly',
-    alignItems: 'center'
+    justifyContent: 'flex-start',
+    alignItems: 'stretch'
   },
   powderblue: {
-    width: 100,
     height: 100,
-    backgroundColor: 'powderblue'
+    backgroundColor: 'powderblue',
+    margin: 50
   },
   skyblue: {
-    width: 100,
     height: 100,
-    backgroundColor: 'skyblue'
+    backgroundColor: 'skyblue',
+    margin: 50
   },
   steelblue: {
-    width: 100,
     height: 100,
-    backgroundColor: 'steelblue'
+    backgroundColor: 'steelblue',
+    margin: 50
   }
 });
