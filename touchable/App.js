@@ -33,7 +33,7 @@ export default class App extends React.Component {
           underlayColor="white"
         >
           <View style={styles.button}>
-            <Text style={styles.buttonText}>Touchable with Long Press</Text>
+            <Text style={styles.buttonTaext}>Touchable with Long Press</Text>
           </View>
         </TouchableHighlight>
       </View>
